@@ -1,0 +1,139 @@
+.hero_section{
+    background-color: #1F2937;
+    padding: 16px 100px 100px 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.614);
+}
+.hero_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+.left{
+    margin-right: 50px;
+}
+.maintext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900
+}
+.secondarytext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+    border-color: #3882F6;
+}
+
+
+.information_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+}
+.information_heading{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 48px;
+}
+.card-container{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.qoute{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    padding: 100px 150px;
+    flex-direction: column;
+}
+.quote_text{
+    justify-content: center;
+    align-items: center;
+}
+.authorname{
+    margin-left: auto;
+    font-weight: bold;
+}
+.main-img{
+    width: 350px;
+    height: 250px;     
+    object-fit: cover; 
+}
+.img-card{        
+  width: 330px;      
+  height: 450px;         
+  object-fit: cover;     
+  border-radius: 8px; 
+}
+
+.action{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    margin: 100px 150px;
+    border-radius: 10px;
+}
+.call-title{
+    font-weight: bold;
+}
+.call-subtext{
+    font-size: 14px;
+}
+.call-title, .call-subtext{
+    color: white;
+}
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    font-size: 12px;
+}
+.right-caller button{
+    border-color: white;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+.card{
+    font-style: italic;
+    color: rgb(97, 96, 96);
+}
